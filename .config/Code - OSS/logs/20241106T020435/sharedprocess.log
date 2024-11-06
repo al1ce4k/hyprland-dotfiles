@@ -1,0 +1,28 @@
+2024-11-06 14:03:31.193 [info] Getting Manifest... mufanza.e-ink-theme
+2024-11-06 14:03:36.587 [info] Installing extension: mufanza.e-ink-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/alice/.vscode-oss/extensions/extensions.json","path":"/home/alice/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.1","date":"2024-11-01T17:20:55.708Z"}}
+2024-11-06 14:03:37.001 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-11-06 14:03:37.001 [info] Extension signature verification is not done: mufanza.e-ink-theme
+2024-11-06 14:03:37.015 [info] Extracted extension to file:///home/alice/.vscode-oss/extensions/mufanza.e-ink-theme-2.4.0-universal: mufanza.e-ink-theme
+2024-11-06 14:03:37.018 [info] Renamed to /home/alice/.vscode-oss/extensions/mufanza.e-ink-theme-2.4.0-universal
+2024-11-06 14:03:37.024 [info] Extension installed successfully: mufanza.e-ink-theme vscode-userdata:/home/alice/.vscode-oss/extensions/extensions.json
+2024-11-06 14:03:37.098 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/alice/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/alice/.vscode-oss/extensions/extensions.json.vsctmp'
+    at hm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-06 14:03:52.037 [info] Getting Manifest... redwan-hossain.skillavid-pure-black
+2024-11-06 14:03:52.168 [info] Installing extension: redwan-hossain.skillavid-pure-black {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/alice/.vscode-oss/extensions/extensions.json","path":"/home/alice/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.1","date":"2024-11-01T17:20:55.708Z"}}
+2024-11-06 14:03:52.543 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-11-06 14:03:52.543 [info] Extension signature verification is not done: redwan-hossain.skillavid-pure-black
+2024-11-06 14:03:52.553 [info] Extracted extension to file:///home/alice/.vscode-oss/extensions/redwan-hossain.skillavid-pure-black-5.0.0-universal: redwan-hossain.skillavid-pure-black
+2024-11-06 14:03:52.555 [info] Renamed to /home/alice/.vscode-oss/extensions/redwan-hossain.skillavid-pure-black-5.0.0-universal
+2024-11-06 14:03:52.562 [info] Extension installed successfully: redwan-hossain.skillavid-pure-black vscode-userdata:/home/alice/.vscode-oss/extensions/extensions.json
+2024-11-06 14:03:52.634 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/alice/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/alice/.vscode-oss/extensions/extensions.json.vsctmp'
+    at hm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

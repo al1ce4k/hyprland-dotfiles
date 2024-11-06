@@ -1,0 +1,14 @@
+{
+    "clock": {
+        "format": "<span color='$COLOR1'> </span>{:%R}",
+        "format-alt": "<span color='$COLOR4'> </span>{:%a %b %d}"
+    },
+    "custom/power-menu": {
+        "format": "<span color='$COLOR2'>⏻ </span>",
+        "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh"
+    },
+    "custom/launcher": {
+        "format": "<span color='$COLOR3'> </span>",
+        "on-click": "rofi -show drun"
+    }
+}

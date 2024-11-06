@@ -1,0 +1,301 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 17px;
+}
+  
+@import '../../.cache/wal/colors-waybar.css';
+
+window#waybar {
+    background-color: @color0;
+    color: @color7;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-top: 8px transparent;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    margin: 16px 16px;
+}
+  
+window#waybar.hidden {
+    opacity: 0.2;
+}
+  
+#workspaces button {
+    padding: 0 5px;
+    color: @color6;
+    background-color: transparent;
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0;
+}
+  
+#workspaces button.focused {
+    color: @color1;
+}
+  
+#workspaces button.active {
+    color: @color12;
+}
+  
+#workspaces button.urgent {
+    background-color: @color9;
+}
+  
+#window {
+    color: @color5;
+}
+  
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd,
+#bluetooth,
+#custom-hyprPicker,
+#custom-power-menu,
+#custom-spotify,
+#custom-weather,
+#custom-weather.severe,
+#custom-weather.sunnyDay,
+#custom-weather.clearNight,
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight,
+#custom-weather.rainyDay,
+#custom-weather.rainyNight,
+#custom-weather.showyIcyDay,
+#custom-weather.snowyIcyNight,
+#custom-weather.default {
+    padding: 0 10px;
+    color: @color7;
+    border-radius: 9.5px;
+    background-color: @color0;
+}
+  
+#window,
+#workspaces {
+    margin: 0 4px;
+    border-radius: 7.8px;
+    background-color: @color0;
+}
+  
+#cpu {
+    color: @color3;
+    background-color: @color0;
+}
+  
+#memory {
+    color: @color10;
+    background-color: @color0;
+}
+  
+#custom-power-menu {
+    border-radius: 9.5px;
+    background-color: @color8;
+    padding: 0 5px;
+}
+  
+#custom-launcher {
+    background-color: @color8;
+    color: @color12;
+    border-radius: 7.5px;
+    padding: 0 3px;
+}
+  
+#custom-weather.severe {
+    color: @color9;
+}
+  
+#custom-weather.sunnyDay {
+    color: @color11;
+}
+  
+#custom-weather.clearNight {
+    color: @color13;
+}
+  
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight {
+    color: @color14;
+}
+  
+#custom-weather.rainyDay,
+#custom-weather.rainyNight {
+    color: @color6;
+}
+  
+#custom-weather.showyIcyDay,
+#custom-weather.snowyIcyNight {
+    color: @color15;
+}
+  
+#custom-weather.default {
+    color: @color7;
+}
+  
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+  
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+  
+#pulseaudio {
+    color: @color5;
+}
+  
+#backlight {
+    color: @color6;
+}
+  
+#clock {
+    color: @color13;
+}
+  
+#battery {
+    color: @color7;
+}
+  
+#battery.charging,
+#battery.full,
+#battery.plugged {
+    color: @color2;
+}
+  
+@keyframes blink {
+    to {
+      background-color: @color0;
+      color: @color7;
+    }
+}
+  
+#battery.critical:not(.charging) {
+    color: @color9;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+  
+label:focus {
+    background-color: @color0;
+}
+  
+#disk {
+    background-color: @color8;
+}
+  
+#bluetooth {
+    color: @color4;
+}
+  
+#bluetooth.disconnected {
+    color: @color9;
+}
+  
+#network {
+    color: @color11;
+}
+  
+#network.disconnected {
+    color: @color9;
+}
+  
+#custom-media {
+    background-color: @color2;
+    color: @color6;
+    min-width: 100px;
+}
+  
+#custom-media.custom-spotify {
+    background-color: @color2;
+}
+  
+#custom-media.custom-vlc {
+    background-color: @color1;
+}
+  
+#temperature {
+    background-color: @color4;
+}
+  
+#temperature.critical {
+    background-color: @color9;
+}
+  
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+  
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: @color9;
+}
+  
+#idle_inhibitor {
+    background-color: @color0;
+}
+  
+#idle_inhibitor.activated {
+    background-color: @color7;
+    color: @color0;
+}
+  
+#mpd {
+    color: @color6;
+}
+  
+#mpd.disconnected {
+    color: @color9;
+}
+  
+#mpd.stopped {
+    color: @color5;
+}
+  
+#mpd.paused {
+    color: @color2;
+}
+  
+#language {
+    background: @color12;
+    color: @color13;
+    padding: 0 5px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+  
+#keyboard-state {
+    background: @color10;
+    color: @color0;
+    padding: 0 0px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+  
+#keyboard-state > label {
+    padding: 0 5px;
+}
+  
+#custom-spotify {
+    padding: 0 10px;
+    margin: 0 4px;
+    color: @color7;
+}
+  
+#keyboard-state > label.locked {
+    background: @color0;
+}

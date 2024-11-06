@@ -1,0 +1,7 @@
+2024-11-06 02:04:36.085 [info] Started local extension host with pid 55139.
+2024-11-06 02:04:38.803 [info] [perf] Render performance baseline is 19ms
+2024-11-06 14:00:05.414 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/alice/.config/dunst/dunstrc 
+2024-11-06 14:00:05.415 [warning] [backup tracker] suspended, ignoring dirty change event untitled:/home/alice/.config/waybar/readme.md 
+2024-11-06 14:00:05.415 [warning] [backup tracker] suspended, ignoring dirty change event untitled:/home/alice/HyDE/Scripts/.config/waybar 
+2024-11-06 14:00:05.416 [warning] [backup tracker] suspended, ignoring unregister event untitled:/home/alice/.config/waybar/readme.md 
+2024-11-06 14:00:05.416 [warning] [backup tracker] suspended, ignoring unregister event untitled:/home/alice/HyDE/Scripts/.config/waybar 

@@ -1,0 +1,151 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono";
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(21, 18, 27, 0);
+    color: @color2;  /* Keeping @color2 for text */
+}
+
+#waybar.empty, #waybar.tiled, #waybar.floating {
+    background-color: transparent;
+}
+
+tooltip {
+    background: @color0;  /* @color0 for tooltip background */
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: @color15;  /* @color15 for tooltip border */
+}
+
+#workspaces button {
+    padding: 5px;
+    color: @color2;  /* @color2 for button text */
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    background-color: @color0;  /* @color0 for active button background */
+}
+
+#workspaces button.focused {
+    color: @color4;  /* @color4 for focused button text */
+    background: @color3;  /* @color3 for focused button background */
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    color: @color15;  /* @color15 for urgent button text */
+    background: @color1;  /* @color1 for urgent button background */
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: @color15;  /* @color15 for hover background */
+    color: @color15;  /* @color15 for hover text */
+    border-radius: 5px;
+}
+
+#custom-power_profile,
+#custom-weather,
+#custom-moon,
+#custom-wallpaper,
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#bluetooth,
+#custom-temperature,
+#custom-memory,
+#workspaces,
+#tray,
+#backlight {
+    background: @color0;  /* @color0 for background */
+    opacity: 0.8;
+    padding: 0px 10px;
+    margin: 0px 0px;
+    margin-top: 10px;
+    border: 1px solid @color15;  /* @color15 for borders */
+}
+
+#custom-memory {
+    color: @color3;  /* @color3 for custom-memory text */
+}
+
+#custom-temperature {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#custom-temperature.critical {
+    color: #f00;  /* Hardcoded red for critical temperature */
+}
+
+#backlight {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#tray {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#workspaces {
+    background: @color0;  /* @color0 for workspace background */
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+#custom-power_profile {
+    color: @color1;  /* @color1 for custom-power_profile text */
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#window {
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#clock {
+    color: @color4;  /* @color4 for clock text */
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 10px;
+    border-right: 0px;
+}
+
+#network {
+    color: @color5;  /* @color5 for network text */
+    border-radius: 10px 0px 0px 10px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#pulseaudio {
+    color: @color6;  /* @color6 for pulseaudio text */
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#pulseaudio.microphone {
+    color: @color7;  /* @color7 for microphone text */
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+}
+
+#custom-moon {
+    border-radius: 0px 10px 10px 0px;
+    border-right: 0px;
+    margin-left: 0px;
+}

@@ -1,0 +1,3 @@
+2024-11-06 15:11:40.386 [warning] [File Watcher] Watcher shutdown because watched path got deleted (path: /home/alice/.config/fastfetch)
+2024-11-06 15:11:40.386 [error] [File Watcher (node.js)] Failed to watch /home/alice/.config/fastfetch/pngs/ef9fe3986eecc74e05f3a0b50262b86a.jpg for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/alice/.config/fastfetch/pngs/ef9fe3986eecc74e05f3a0b50262b86a.jpg')
+2024-11-06 15:11:40.386 [error] [File Watcher (node.js)] Failed to watch /home/alice/.config/fastfetch/pngs/9801239799ee4a0044efbc5422d8ca25-761999039.jpg for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/alice/.config/fastfetch/pngs/9801239799ee4a0044efbc5422d8ca25-761999039.jpg')

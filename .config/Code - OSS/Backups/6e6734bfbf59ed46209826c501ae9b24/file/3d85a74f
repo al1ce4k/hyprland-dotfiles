@@ -1,0 +1,59 @@
+file:///home/alice/slungus.online/index.html {"mtime":1730830963533,"ctime":1730830963533,"size":1218,"etag":"3d9npjool189","orphaned":false,"typeId":""}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slungus Lamong us.</title>
+    <meta content="Slungus Ltd." property="og:title" />
+    <meta
+      content="Our Company will propell you forward in the business space."
+      property="og:description"
+    />
+    <meta content="https://slungus.online" property="og:url" />
+    <meta content="https://slungus.online/slungus.png" property="og:image" />
+    <link rel="icon" type="image/x-icon" href="Slungus.ico" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  
+  <body>
+    <a href="https://slungus.nl" class="logo-link">
+      <img src="Slungus.ico" alt="Logo" class="logo" />
+    </a>
+
+    <section class="hero">
+      <video autoplay loop muted class="background-video">
+        <source src="buny.mp4" type="video/mp4" />
+        no bunby for u :(
+      </video>
+      <div class="text-box">
+        <h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1><h1>Slungus amonguss!!!!</h1>
+        <p>
+          we love to eat carrots and play in grass, please give 4 euro's for carrot
+          funds
+        </p>
+        <p>
+          we love to eat carrots and play in grass, please give 4 euro's for carrot
+          funds
+        </p>
+        <p>
+          we love to eat carrots and play in grass, please give 4 euro's for carrot
+          funds
+        </p>
+        <p>
+          we love to eat carrots and play in grass, please give 4 euro's for carrot
+          funds
+        </p>
+        <p>
+          we love to eat carrots and play in grass, please give 4 euro's for carrot
+          funds
+        </p>
+        <p>
+          we love to eat carrots and play in grass, please give 4 euro's for carrot
+          funds
+        </p>
+        <a href="mailto:mail@slungus.online">give carrot button</a>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+2024-11-06 14:29:53.967 [info] Extension host with pid 74668 started
+2024-11-06 14:29:53.967 [info] Skipping acquiring lock for /home/alice/.config/Code - OSS/User/workspaceStorage/77b9db311126d90f36fc6c1c15c74520.
+2024-11-06 14:29:54.037 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-06 14:29:54.076 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-06 14:29:54.077 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2024-11-06 14:29:54.093 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-06 14:29:54.142 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-06 14:29:54.199 [info] Eager extensions activated
+2024-11-06 14:29:54.217 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-06 14:29:54.219 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-06 14:35:44.201 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-06 14:35:44.204 [info] Extension host with pid 74668 exiting with code 0

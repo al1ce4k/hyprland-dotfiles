@@ -1,0 +1,10 @@
+2024-11-06 14:08:39.821 [info] Extension host with pid 70344 started
+2024-11-06 14:08:39.835 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-06 14:08:39.838 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2024-11-06 14:08:39.861 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-06 14:08:39.908 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-06 14:08:39.949 [info] Eager extensions activated
+2024-11-06 14:08:39.957 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-06 14:08:39.958 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-06 14:08:40.024 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-06 14:08:40.027 [info] Extension host with pid 70344 exiting with code 0

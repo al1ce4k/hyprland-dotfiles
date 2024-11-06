@@ -1,0 +1,5 @@
+2024-11-06 14:04:30.468 [info] Started local extension host with pid 69360.
+2024-11-06 14:04:33.098 [info] [perf] Render performance baseline is 19ms
+2024-11-06 14:44:07.847 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2024-11-06 14:44:08.474 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2024-11-06 14:44:10.436 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/alice/.config/cfg_backups/241106_01h49m00s_remove/.config/fish/config.fish 
